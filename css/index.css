@@ -1,0 +1,51 @@
+/*amarelo: #f2c029 > azul: #2a3a59*/
+
+body{font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; line-height: 1.6;background-color: #b8bdaa}
+.container{margin: 0 auto;width: 960px}
+
+/*Configurações do cabeçário*/
+
+header {background-color: #2a3a59}
+
+.superior{display: flex;justify-content: space-between}
+
+.logo{text-align: center}
+
+.logo-a-image{width: 20%}
+
+.logo p{text-transform: uppercase;background-color: #2a3a59;font-weight: bold;color: #f2c029; margin: 0;font-size:x-small;text-align: center}
+
+.nav-opcoes {display: flex;align-items: center;margin-right: 20px; width: 80%;}
+
+.nav-opcoes ul {display: flex;justify-content: center;list-style: none}
+
+.nav-opcoes a{text-transform: uppercase;color: #f2c029;font-weight: 700;display: block;transition: .5s;padding: 0px}
+
+.nav-opcoes a:hover{color: #fff}
+
+.nav-item {margin: 0 15px}
+
+.nav-link {text-decoration: none;font-size: 1.2rem}
+
+/*Configurações do centro*/
+
+h2{border-bottom: 1px dashed #7E9F19;text-align: center}
+
+.corpo{border: 2px solid;margin-bottom: 10px;padding: 10px; background-color: #FFF1D6}
+
+.corpo p{background-color: #fff;}
+
+.corpo a{text-decoration: none;color: black;transition: .5s;}
+
+.corpo a:hover{background-color: #f2c029;}
+
+.img-ipc{width: 100%;height: 55rem}
+
+/*Configurações do rodapé*/
+
+footer{background-color: #2a3a59;color: #f2c029; width: 100%;height: 100px}
+
+footer h4{margin-left: 10px; width: 32%;float: left;}
+
+footer p{width: 32%; float: left;}
+
