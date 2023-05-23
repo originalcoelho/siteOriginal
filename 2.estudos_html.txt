@@ -1,0 +1,86 @@
+Algumas Tags a lembrar:
+
+<!--..--> = Define um comentário em html e CSS dessa única forma.
+<abbr> = Define uma abreviatura.
+<adress> = Define as informações de contato do autor/proprietário de um documento
+<blockquote> = Define uma seção que é citada de outra fonte
+<caption> = Define uma legenda de tabela
+<code> = Define um pedaço de código de computador
+<colgroup> = Especifica um grupo de uma ou mais colunas em uma tabela para formatação
+<dialog> = Define uma caixa de diálogo ou janela
+<em> = Define o texto enfatizado
+<fieldset> = Agrupa elementos relacionados em um formulário
+<legend> = Define uma legenda para um elemento <fieldset>
+<figcaption> = Define uma legenda para um elemento <figure>
+<figure> = Especifica o conteúdo independente
+<input> = Define um controle de entrada
+<label> = Define um rótulo para um elemento <input>
+<mark> = Define o texto marcado/destacado
+<picture> = Define um contêiner para vários recursos de imagem
+<select> = Define uma lista suspensa
+<span> = Define uma seção em um documento
+<textarea> = Define um controle de entrada multilinha (área de texto)
+<track> = Define faixas de texto para elementos de mídia (<video> e <audio>)
+<var> = Define uma variável
+
+_________________________________________________________________________________________________________________
+
+Os atributos globais são atributos que podem ser usados com todos os elementos HTML, são eles:
+
+class = Especifica um ou mais nomes de classe para um elemento.
+id = Especifica um ID exclusivo para um elemento.
+hidden = Os navegadores não devem exibir elementos que tenham o hidden atributo especificado.
+style = Especifica um estilo CSS embutido para um elemento
+
+--------------------------------------------------------------------------------------------------------------------
+
+A tabela abaixo lista todos os atributos HTML e em quais elementos eles podem ser usados:
+
+action =        <input> = Especifica para onde enviar os dados do formulário quando um formulário é enviado
+alt =           <area><img><input> = Especifica um texto alternativo quando o elemento original não é exibido
+autocomplete =  <form><input> = Especifica se o elemento <form> ou <input> deve ter o preenchimento automático habilitado
+autoplay =      <audio><video> = Especifica que o áudio/vídeo começará a ser reproduzido assim que estiver pronto
+checked =       <input> = Especifica que um elemento <input> deve ser pré-selecionado quando a página for carregada (para type="checkbox" ou type="radio")
+disabled =      <button><input> = Especifica que o elemento/grupo de elementos especificado deve ser desabilitado
+form =          <button><input><label> = Especifica o nome do formulário ao qual o elemento pertence
+formaction =    <button><input> = Especifica para onde enviar os dados do formulário quando um formulário é enviado. Apenas para type="submit"
+list =          <input> = Refere-se a um elemento <datalist> que contém opções predefinidas para um elemento <input>
+max =           <input><textarea> = Especifica o valor máximo do elemento.
+maxlength =     <input><textarea> = Especifica o número máximo de caracteres permitidos em um elemento
+min =           <input> = Especifica o valor mínimo do elemento.
+placeholder =   <input><textarea> = Especifica uma dica curta que descreve o valor esperado do elemento
+readonly =      <input><textarea> = Especifica que o elemento é somente leitura
+required =      <input><textarea> = Especifica que o elemento deve ser preenchido antes de enviar o formulário
+size = 	        <input><select> = Specifies the width, in characters (for <input>) or specifies the number of visible options (for <select>)
+step =          <input> = Especifica os intervalos de números legais para um campo de entrada
+type =          <a><button><embed><input><link><menu><object><script><source><style> = Especifica o tipo de elemento
+value =         <button><input> = Especifica o valor do elemento
+method =        <form> = Especifica o método HTTP a ser usado ao enviar dados de formulário
+onreset =       <form> = Script a ser executado quando um botão de reset em um formulário é clicado
+onsubmit =      <form> = Script a ser executado quando um formulário é enviado
+controls =      <audio><video> = Especifica que os controles de áudio/vídeo devem ser exibidos (como um botão de reprodução/pausa, etc.)
+height =        <video> = O tamanho de altura do vídeo.
+width =         <video> = O tamanho de comprimento do vídeo.
+loop =          <audio><video> = Especifica que o áudio/vídeo será iniciado novamente, sempre que terminar
+muted  =        <audio><video> = Especifica que a saída de áudio do vídeo deve ser silenciada
+onerror =       <audio><video> = Script a ser executado quando ocorrer um erro
+onpause =       <audio><video> = Script a ser executado quando a mídia é pausada pelo usuário ou programaticamente
+onstalled =     <audio><video> = Script a ser executado quando o navegador não conseguir buscar os dados de mídia por qualquer motivo
+onwaiting =     <audio><video> = Script a ser executado quando a mídia pausa, mas espera-se que seja retomada
+poster =        <video> = Especifica uma imagem a ser exibida durante o download do vídeo ou até que o usuário pressione o botão de reprodução
+coord =         <area> = Especifica as coordenadas da área
+onclic =        Para todos os elementos visíveis = Script a ser executado quando o elemento estiver sendo clicado
+onmouseout =    Para todos os elementos visíveis = Script a ser executado quando um ponteiro do mouse se move para fora de um elemento
+onmouseover =   Para todos os elementos visíveis = Script a ser executado quando o ponteiro do mouse se move sobre um elemento
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+Os seletores CSS são usados ​​para "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.
+Podemos dividir os seletores CSS em cinco categorias:
+
+SELETOR SIMPLES:seleciona elementos com base no nome, id ou classe.
+p {text-align: center; color: red}
+
+SELETOR UNIVERSAL:
+* {text-align: center}
+
+SELETOR DE COMBINAÇÃO: são 04 os seletores com base em um relacionamento específico entre eles.
+Seletor descendente:
+div p {...}:O seletor descendente corresponde a todos os elementos que são descendentes de um elemento especificado.
+
+Seletor filho: 
+div > p {...}: O seletor filho seleciona todos os elementos que são filhos de um elemento especificado.
+
+Seletor irmão adjacente:
+div + p {...}: O seletor irmão adjacente é usado para selecionar um elemento que está diretamente após outro elemento específico.
+
+Seletor irmão geral:
+div ~ p {...}: O seletor irmão geral seleciona todos os elementos que são os próximos irmãos de um elemento especificado.
+
+SELETOR PSEUDO-CLASSE: usada para definir um estado especial de um elemento.
+a:link {color: #FF0000}
+
+SELETOR PSEUDO-ELEMENTO: é usado para estilizar partes específicas de um elemento.
+p::first-line {color: #ff0000; font-variant: small-caps}
+
+SELETORES DE ATRIBUTO: selecione elementos com base em um atributo ou valor de atributo.
+a[target="_blank"] {background-color: yellow}
+
+[title~="flower"] {...} O exemplo acima corresponderá a elementos com title="flower" ou title="summer flower" qualquer.
+
+[class|="top"] {...} selecionar elementos com o atributo especificado, cujo valor pode ser exatamente o valor especificado ou seguido por um hífen (-).
+
+[class^="top"] {...} seletor é usado para selecionar elementos cujo valor começa com o valor especificado.
+
+[class$="test"] {...} seletor é usado para selecionar elementos cujo valor de atributo termina com um valor especificado.
+
+[class*="te"] {...} seleciona todos os elementos com um valor de atributo de classe que contém "te" em qualquer parte da palavra.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+BACKGROUND:
+background-color:
+background-image:
+background-repeat: repete e imagen ao logo do body
+background-attachment:deixa a imagen congelada na tela
+
+
+OUTLINE
+outline: um destaque para fora da borda do elemento.
+
+
+TEXT
+text-decoration: edita os textos.
+text-indent: tamanho do parágrafo
+letter-spacing: espaço das letras
+line-height: altura das frases
+word-spacing:distância das palavras
+white-space:coloca todo o texto comprido dentro de uma tela somente.
+
+
+FONTS
+Tipos de fontes já disponíveis na web:
+Arial (sans-serif)
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+
+font-style: itálico ou obliquo
+font-variant: small-caps
+font-weight: bold
+
+
+LINKS
+a:link
+a:visited = geração do botão.
+a:hover = muda o padrão do botão.
+a:active = o efeito que gera na mudança.
+
+
+display: block = transforma o elemento de linha em bloco.
+visibility: hidden = oculta o elemento.
+
+
+POSITION
+static: Elementos estáticos posicionados não são afetados pelas propriedades superior, inferior, esquerda e direita.
+relativ: Definir as propriedades superior, direita, inferior e esquerda de um elemento relativamente posicionado fará com que ele seja ajustado para fora de sua posição normal. 
+fixed:Um elemento com posição: fixo; está posicionado em relação à janela de visualização, o que significa que sempre permanece no mesmo lugar, mesmo que a página seja rolada.
+absolute: No entanto; se um elemento posicionado absoluto não tiver ancestrais posicionados, ele usará o corpo do documento e se moverá junto com a rolagem da página.
+sticky:Um elemento adesivo alterna entre relativo e fixo, dependendo da posição de rolagem. Ele é posicionado em relação até que uma determinada posição de deslocamento seja encontrada na viewport - então ele "gruda" no lugar (como position:fixed)
+
+
+Z-INDEX
+A propriedade z-index especifica a ordem de pilha de um elemento. Os que vêm antes uns dos outros. z-index:2 fica por cima do z-index:1.
+
+
+OVERFLOW: A propriedade CSS overflow controla o que acontece com o conteúdo grande demais para caber em uma área.
+hidenn: O estouro é cortado e o restante do conteúdo ficará invisível.
+scroll: O estouro é cortado e uma barra de rolagem é adicionada para ver o restante do conteúdo
+auto: Semelhante ao scroll, mas adiciona barras de rolagem apenas quando necessário
+
+
+FLOAT
+A propriedade especifica como um elemento deve flutuar.
+inherit - O elemento herda o valor float de seu pai
+
+
+CLEAR
+A propriedade clear especifica o que deve acontecer com o elemento que está próximo a um elemento flutuante
+clearfix:Se um elemento flutuante for mais alto que o elemento que o contém, ele "transbordará" para fora de seu contêiner. Podemos então adicionar um hack clearfix para resolver este problema.
+
+
+INLINE-BLOCK
+Diferente do display-block o inline-block pode ficar ao lado de outros elementos em linha.
+
+
+OPACITY
+A propriedade opacity especifica a opacidade/transparência de um elemento.
+
+DROPDOWNS
+Crie uma caixa suspensa que aparece quando o usuário move o mouse sobre um elemento.
+
+
+COUNTERS
+counter-reset - Cria ou redefine um contador
+counter-increment - Incrementa um valor de contador
+content - Insere o conteúdo gerado
+função counter() ou counters() - Adiciona o valor de um contador a um elemento
+
+BOX-SIZING: border-box
+Não acresenta o tamanho do padding ao tamanho final do box.
+
+
+
+
+
+
+
+
+
+
+
+
