@@ -1,5 +1,6 @@
 Os seletores CSS são usados ​​para "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.
-Podemos dividir os seletores CSS em cinco categorias:
+Podemos dividir os seletores CSS em cinco categorias para estudar:
+
 
 SELETOR SIMPLES:seleciona elementos com base no nome, id ou classe.
 p {text-align: center; color: red}
