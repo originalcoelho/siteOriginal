@@ -1,5 +1,5 @@
 Os seletores CSS são usados ​​para "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.
-Podemos dividir os seletores CSS em cinco categorias para estudar:
+Podemos dividir os seletores CSS em cinco categorias:
 
 
 SELETOR SIMPLES:seleciona elementos com base no nome, id ou classe.
@@ -10,16 +10,17 @@ SELETOR UNIVERSAL:
 
 SELETOR DE COMBINAÇÃO: são 04 os seletores com base em um relacionamento específico entre eles.
 Seletor descendente:
-div p {...}:O seletor descendente corresponde a todos os elementos que são descendentes de um elemento especificado.
+div p {...}:O seletor descendente corresponde a todos os elementos que são descendentes de um elemento pai.
+article p b {...}
 
 Seletor filho: 
-div > p {...}: O seletor filho seleciona todos os elementos que são filhos de um elemento especificado.
+div p > a {...}: O seletor filho seleciona somente os filhos diretos de um elemento especificado.
 
 Seletor irmão adjacente:
-div + p {...}: O seletor irmão adjacente é usado para selecionar um elemento que está diretamente após outro elemento específico.
+div p + a {...}: O seletor somente selecionará o elemento imediatamente após o outro específico sem nenhum no meio.
 
 Seletor irmão geral:
-div ~ p {...}: O seletor irmão geral seleciona todos os elementos que são os próximos irmãos de um elemento especificado.
+div h3 ~ p {...}: O seletor irmão geral seleciona todos os elementos que são os próximos irmãos de um elemento especificado.
 
 SELETOR PSEUDO-CLASSE: usada para definir um estado especial de um elemento.
 a:link {color: #FF0000}
