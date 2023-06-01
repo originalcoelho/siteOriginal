@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?viyv3b');
-  src:  url('fonts/icomoon.eot?viyv3b#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?viyv3b') format('truetype'),
-    url('fonts/icomoon.woff?viyv3b') format('woff'),
-    url('fonts/icomoon.svg?viyv3b#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?9cwwkg');
+  src:  url('fonts/icomoon.eot?9cwwkg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9cwwkg') format('truetype'),
+    url('fonts/icomoon.woff?9cwwkg') format('woff'),
+    url('fonts/icomoon.svg?9cwwkg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,15 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home3:before {
-  content: "\e902";
+.icon-mail2:before {
+  content: "\ea84";
 }
-.icon-map:before {
-  content: "\e94b";
+.icon-instagram:before {
+  content: "\ea92";
 }
-.icon-bubbles4:before {
-  content: "\e970";
+.icon-whatsapp:before {
+  content: "\ea93";
 }
-.icon-spoon-knife:before {
-  content: "\e9a3";
+.icon-youtube:before {
+  content: "\ea9d";
 }
