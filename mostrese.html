@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content=" Rodrigo Coelho">
+    <meta name="keywords" content="front-end, sites, html, web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/icomoon-icon/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="icon" type="image/x-icon" href="images/logo_coelho_small.jpg">
+    <title>originalcoelho</title>
+    <style>
+:root{--primary-color:rgb(83, 109, 136);
+      --color2:#19274e;
+      --color3:#0f132e;
+      --color4:rgb(180, 155, 133);
+      --color5:#eac195}
+
+html{font-family: 'Oxygen', sans-serif;}
+
+/* Header */
+.maxWidth{max-width: 87em; margin: auto;padding: 0px;}
+.top_header{text-align: center;}
+.top_header_nav{background-color:var(--primary-color);}
+.top_header_nav ul{list-style-type: none;padding: 0;margin-bottom: 0;}
+.top_header_nav li{transition-duration: .4s;}
+.top_header_nav li:hover{background-color: var(--color2);}
+.top_header_nav a{color: #fff;text-decoration: none;display: block;padding: 1em;}
+.top_header_logo{margin-top: 1em;}
+
+/* logomarca */
+.heroBanner{text-align: center;background-image: url(../images/bg_topo_448x335.jpg);background-repeat: no-repeat; padding: 1em;
+    background-position: center;background-size: cover;box-sizing: border-box;}
+.heroBannerDiv{max-width: 40em;margin: auto;}
+.heroBanner_iconPlay{width: 5em; display: none;}
+.heroBanner_iconPlay img{width: 100%;}
+.heroBanner_title{color:#fff;margin: 0; text-shadow: 4px 4px 2px rgb(0, 0, 0, 0.5);
+    font-size: 2em;}
+.heroBanner_subtitle{font-size: 1em; color:#fff;font-weight: lighter;line-height: 1.2;}
+.heroBanner_btn{display: inline-block;padding: .9em 2em;background-color: #58c4c4;
+    text-decoration: none;color: #fff;border-radius: 5px;font-size: 1.2em;}
+
+/* Conteúdo do Meio */
+.middleContent{background-color: var(--color4);text-align: center;padding: 2em;}
+.middleContent a{text-decoration: none; color: inherit;}
+.middleContent_title{text-transform: uppercase;}
+.middleContent span[class^="icon-"] {color: var(--primary-color);font-size: 3em;}
+.middleContent p{line-height: 1.5;}
+
+.row{display: flex;flex-wrap: wrap;gap: 1em;}
+.col{flex: 1 0 auto; width: 100%;}
+.col-sm-12{width: 100%;}
+
+/* Footer */
+.footer{background: var(--color2);color: #fff;text-align: center;padding: 2em;}
+.colunas{padding: 0px;margin: 0px;font-size: .5rem;}
+.coluna1{float: left;width: 50%;padding: 0px;margin: 0px;color: #fff;}
+
+    /*col-md*/
+    @media screen and (min-width: 48.75em){
+        .top_header{display:flex ;justify-content: space-between;
+            background-color: var(--primary-color)  ;}
+        .top_header_nav{background-color: initial;} /*volta para o estado original*/
+        .top_header_nav li{display: inline-block;}
+        .top_header a{color:#fff;}
+        .top_header_logo{margin-left: 1em;}
+        .heroBanner_iconPlay{width: 5em; display:inherit;margin: auto;}
+        .col-md-6{width: calc(50% - 1em);}
+        .colunas{font-size: .8rem;}
+    }
+    
+    /*col-lg*/
+    @media screen and (min-width: 60em){
+        .heroBanner{background-image: url(../images/logo_coelho.jpg);aspect-ratio: 1000/500;
+        background-position: center middle;background-repeat: no-repeat;
+        max-height: 75vh;background-color:rgb(156, 156, 151, 0.5);background-blend-mode: darken;}
+        .heroBanner_iconPlay img {margin-left: -15px;}
+        .heroBannerDiv{margin: 17em auto 0 auto;}
+        .heroBanner_title{color:#58c4c4;font-size: 3em;}
+        .heroBanner_subtitle{font-size: 1.5em; color:#58c4c4;}
+    }
+    
+    /*col-xl*/
+    @media screen and (min-width: 89.5em){
+        .col-md-6{width: calc(25% - 1em);}
+        .col-xl-3{width: calc(50% - 2.5em);}
+    }
+    </style>
+</head>
+
+<body>
+    <header class="top_header maxWidth">
+        <img src="images/logo_coelho_escrita.jpg" class="top_header_logo" alt="logomarca do web designer">
+        <nav class="top_header_nav">
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="https://www.instagram.com/originalcoelho/" class="" target="_blank">Quem Sou</a></li>
+                <li><a href="mostrese.html" class="">Mostre-se</a></li>
+                <li><a href="contato.html" class="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section class="heroBanner maxWidth">
+        <div class="heroBannerDiv">
+            <div class="heroBanner_iconPlay">
+                <img src="images/icon_play.svg" alt="Imagem de um botão de play">
+            </div>
+            <h1 class="heroBanner_title">Informe seu Cliente e Surpreenda-se</h1>
+            <h2 class="heroBanner_subtitle">Não há como ficar de fora dos negócios da web hoje em dia. Meu nome
+                é Rodrigo Coelho, web designer, e vou ajudar a você a vender mais.</h2>
+            <a href="contato.html" class="heroBanner_btn">Descubra</a>    
+        </div>
+    </section>
+
+    <section class="middleContent">
+        <div class="middleContentDiv row">
+            <article class="col col-sm-12 col-md-6">
+                    <h3 class="middleContent_title">TENHA UM CARTÃO DE VISITAS VIRTUAL</h3>
+                    <p>Quando você desenvolve um site, está criando, na verdade, um cartão de visitas digital.
+                         Afinal, é por meio dele que o cliente pode conhecer mais sobre a sua empresa e
+                          conferir informações relevantes sobre o negócio. Quais são os produtos vendidos? 
+                          Qual é a sua especialidade? Tudo isso deve estar presente no seu site.</p>
+            </article>
+            <article class="col col-sm-12 col-md-6">
+                    <h3 class="middleContent_title">CONSTRUA CREDIBILIDADE</h3>
+                    <p>O site também é uma maneira de construir credibilidade para a sua 
+                        marca. O usuário passa a entender quem são as pessoas por trás 
+                        daquele negócio, a forma como as operações são feitas, enfim, é uma 
+                        forma de apresentar a sua empresa. Um site bem feito passa a 
+                        mensagem de seriedade e de preocupação com as mínimas experiências 
+                        que o usuário pode ter com seu atendimento.</p>
+            </article>
+            <article class="col col-sm-12 col-md-6">
+                    <h3 class="middleContent_title">SEJA ENCONTRADO</h3>
+                    <p>Uma empresa também deve fazer questão de aparecer para o mercado. 
+                        Não há mais espaço para se esconder em um cenário de tanta competição 
+                        pela atenção dos usuários. Ao criar um site, você 
+                        facilita que um consumidor em potencial encontre os canais para 
+                        contato e possa prosseguir em sua jornada de compra.</p>
+            </article>
+            <article class="col col-sm-12 col-md-6">
+                    <h3 class="middleContent_title">FORTALEÇA SUA MARCA</h3>
+                    <p>Um site bem produzido também se torna uma forma de fortalecer a sua 
+                        marca. O termo conhecido como brand awareness é potencializado ao 
+                        proporcionar aos visitantes uma experiência positiva em suas 
+                        páginas. A credibilidade acaba se reforçando com uma 
+                        página de qualidade e isso se reflete na força que a sua marca tem 
+                        no mercado.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Web designer apaixonado por tecnologia e design, além de entusiasta
+             no estudo da Inteligência Emocional. Possuo grande experiência na área de
+             gestão de projetos e pessoas.</p>
+        <div class="colunas">
+            <div class="coluna1">
+                <span>Copyright © 2023 originalcoelho</span>
+            </div>
+            <div class="coluna1">
+                <span>Desenvolvido por Rodrigo Coelho</span>
+            </div>
+    </footer>
+</main>
+</body>
+</html>
