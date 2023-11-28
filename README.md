@@ -1,4 +1,4 @@
 # siteOriginal
 Página oficial do web designer Rodrigo Coelho
 
-Uma das primeiras páginas estáticas da web que criei dentro do melhor conceito de responsividade.
+Uma das primeiras páginas estáticas que criei dentro do conceito de responsividade.
