@@ -1,4 +1,5 @@
-# Web site oficial
+# CURRÍCULO OFICIAL DE RODRIGO COELHO
+
 Página oficial do web designer Rodrigo Coelho
 
-Uma das primeiras páginas estáticas que criei dentro do conceito de responsividade.
+
